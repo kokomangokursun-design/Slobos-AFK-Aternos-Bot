@@ -5,83 +5,95 @@
     "password": "",
     "type": "offline"
   },
+
   "server": {
     "ip": "hybomboclatt.aternos.me",
     "port": 64959,
-    "version": "",
+    "version": "1.21.1",
     "try-creative": false
   },
+
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
   },
+
   "utils": {
     "auto-auth": {
       "enabled": true,
       "password": "chalol78"
     },
+
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
+
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 120,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
-      ]
+      "messages": []
     },
+
     "chat-log": true,
+
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
+
   "movement": {
-    "enabled": true,
+    "enabled": false,
+
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "enabled": false,
+      "radius": 0,
+      "speed": 0
     },
+
     "look-around": {
-      "enabled": true,
-      "interval": 5000
+      "enabled": false,
+      "interval": 0
     },
+
     "random-jump": {
-      "enabled": true,
-      "interval": 10000
+      "enabled": false,
+      "interval": 0
     }
   },
+
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
+    "avoidMobs": false,
+    "combat": false,
     "beds": false,
-    "chat": true,
-    "console-commands": true
+    "chat": false,
+    "console-commands": false
   },
+
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
+
   "beds": {
     "pick-up-day": false,
     "place-night": false
   },
+
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "",
     "events": {
-      "connect": true,
-      "disconnect": true,
+      "connect": false,
+      "disconnect": false,
       "chat": false
     }
   },
+
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
